@@ -13,6 +13,15 @@
 		94053CD02458702700C38BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94053CCE2458702700C38BE2 /* Main.storyboard */; };
 		94053CD22458702800C38BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94053CD12458702800C38BE2 /* Assets.xcassets */; };
 		94053CD52458702800C38BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94053CD32458702800C38BE2 /* LaunchScreen.storyboard */; };
+		94053CDD245870A000C38BE2 /* AnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94053CDC245870A000C38BE2 /* AnalyticsEngine.swift */; };
+		94053CDF2458737F00C38BE2 /* CloudKitAnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94053CDE2458737F00C38BE2 /* CloudKitAnalyticsEngine.swift */; };
+		94053CE1245873FC00C38BE2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94053CE0245873FC00C38BE2 /* LoginViewController.swift */; };
+		948653D924587795007216C1 /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948653D824587795007216C1 /* MessageListViewController.swift */; };
+		948653DB245877BB007216C1 /* LoginEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948653DA245877BB007216C1 /* LoginEvent.swift */; };
+		948653DD24587D8D007216C1 /* MessageListScreenEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948653DC24587D8D007216C1 /* MessageListScreenEvents.swift */; };
+		948653DF24587DA4007216C1 /* MessageListActionEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948653DE24587DA4007216C1 /* MessageListActionEvents.swift */; };
+		948653E324587DF1007216C1 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948653E224587DF1007216C1 /* MyAccountViewController.swift */; };
+		948653E52458807D007216C1 /* MyAccountEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948653E42458807D007216C1 /* MyAccountEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		94053CD12458702800C38BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94053CD42458702800C38BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94053CD62458702800C38BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94053CDC245870A000C38BE2 /* AnalyticsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEngine.swift; sourceTree = "<group>"; };
+		94053CDE2458737F00C38BE2 /* CloudKitAnalyticsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitAnalyticsEngine.swift; sourceTree = "<group>"; };
+		94053CE0245873FC00C38BE2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		948653D824587795007216C1 /* MessageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewController.swift; sourceTree = "<group>"; };
+		948653DA245877BB007216C1 /* LoginEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEvent.swift; sourceTree = "<group>"; };
+		948653DC24587D8D007216C1 /* MessageListScreenEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListScreenEvents.swift; sourceTree = "<group>"; };
+		948653DE24587DA4007216C1 /* MessageListActionEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListActionEvents.swift; sourceTree = "<group>"; };
+		948653E224587DF1007216C1 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		948653E42458807D007216C1 /* MyAccountEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,22 @@
 		94053CC72458702700C38BE2 /* AnalyticsEnginePractice */ = {
 			isa = PBXGroup;
 			children = (
+				94053CD62458702800C38BE2 /* Info.plist */,
+				94053CDC245870A000C38BE2 /* AnalyticsEngine.swift */,
 				94053CC82458702700C38BE2 /* AppDelegate.swift */,
+				94053CDE2458737F00C38BE2 /* CloudKitAnalyticsEngine.swift */,
+				948653DA245877BB007216C1 /* LoginEvent.swift */,
+				94053CE0245873FC00C38BE2 /* LoginViewController.swift */,
+				948653DE24587DA4007216C1 /* MessageListActionEvents.swift */,
+				948653DC24587D8D007216C1 /* MessageListScreenEvents.swift */,
+				948653D824587795007216C1 /* MessageListViewController.swift */,
+				948653E42458807D007216C1 /* MyAccountEvent.swift */,
+				948653E224587DF1007216C1 /* MyAccountViewController.swift */,
 				94053CCA2458702700C38BE2 /* SceneDelegate.swift */,
 				94053CCC2458702700C38BE2 /* ViewController.swift */,
-				94053CCE2458702700C38BE2 /* Main.storyboard */,
 				94053CD12458702800C38BE2 /* Assets.xcassets */,
 				94053CD32458702800C38BE2 /* LaunchScreen.storyboard */,
-				94053CD62458702800C38BE2 /* Info.plist */,
+				94053CCE2458702700C38BE2 /* Main.storyboard */,
 			);
 			path = AnalyticsEnginePractice;
 			sourceTree = "<group>";
@@ -140,6 +167,15 @@
 			files = (
 				94053CCD2458702700C38BE2 /* ViewController.swift in Sources */,
 				94053CC92458702700C38BE2 /* AppDelegate.swift in Sources */,
+				948653E52458807D007216C1 /* MyAccountEvent.swift in Sources */,
+				94053CDF2458737F00C38BE2 /* CloudKitAnalyticsEngine.swift in Sources */,
+				948653E324587DF1007216C1 /* MyAccountViewController.swift in Sources */,
+				948653DF24587DA4007216C1 /* MessageListActionEvents.swift in Sources */,
+				94053CDD245870A000C38BE2 /* AnalyticsEngine.swift in Sources */,
+				94053CE1245873FC00C38BE2 /* LoginViewController.swift in Sources */,
+				948653D924587795007216C1 /* MessageListViewController.swift in Sources */,
+				948653DB245877BB007216C1 /* LoginEvent.swift in Sources */,
+				948653DD24587D8D007216C1 /* MessageListScreenEvents.swift in Sources */,
 				94053CCB2458702700C38BE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ryanrange.AnalyticsEnginePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ryanrange.AnalyticsEnginePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
